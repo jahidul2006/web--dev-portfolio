@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+   /* shared style */
+   
+   .section-title{
+     font-size: 35px;
+     font-weight: bold;
+     color: #181818;
+     
+   }
+   .section-description{
+    font-size: 18px;
+     font-weight: bold;
+     color:#757575;
+   }
+   .text-primary{
+    color: #FD6E0A;
+   }
+  .btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 5px;
+  }
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner  style */
+.banner-contant{
+    max-width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+/* header */
+.header{
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.name{
+    font-weight: bold;
+    font-size: 85px;
+}
+.profile{
+    width: 580px;
+}
+.me{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0 35px 0 170px;
+}
+
+.dark-2{
+    color: #474747;
+}
+/* about styles */
+.About{
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.item-description{
+    font-weight: bold;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.skill-contant{
+    gap: 24px;
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-contant{
+    display: flex;
+    gap: 25px;
+}
+.experience-description, .sub-title{
+     color:#757575;
+}
+.sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume hr{
+    margin: 20px 5px;
+}
+.pro{
+    text-align: center;
+    margin-top: 30px;
+}
+.last-part{
+    height: 550px;
+    width: 100%;
+    border: 2px solid green;
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.first{
+    height: 700px;
+    width: 50%;
+   
+}
+.last{
+    
+    flex-direction:column;
+   
+    
+}
+.you{
+    height: 44px;
+    width: 330px;
+    font-size: 18px ;
+    border-radius: 7px;
+    background-color: white;
+    display: block;
+    border: none;
+}
+.he{
+    width: 330px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+}
+.but {
+    padding-top: 35px;
+    
+    font-weight: bold;
+    
+}
